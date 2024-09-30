@@ -1,0 +1,83 @@
+/*#header{
+  background: url('../../images/image3.jpg') no-repeat;
+  background-size: cover;
+  height: 100vh;
+}*/
+h3, h1{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+html{
+  scroll-behavior: smooth;
+}
+.nav-link{
+  text-transform: uppercase;
+}
+.nav-link:hover{
+  color:#990099 !important;
+}
+display-4{
+  margin-top: 10px;
+}
+#header.overlay{
+  background-color: rgba(26, 0, 26,0.8);
+  height: 100vh;
+}
+.btn-outline-secondary{
+  cursor: pointer;
+  box-shadow: 1px 3px 3px 1px;
+}
+.btn-btn-outline-secondary:hover{
+  background-color:  #990099;
+}
+.navbar{
+  border-bottom: #e660e6 solid 2px;
+}
+#work{
+  background: url(../../images/image1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.choose{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-decoration: underline;
+  padding-top: 30px;
+}
+
+.animate-hover {
+  display: inline-block;
+  text-align: center;
+  transition: all 0.5s, ease;
+}
+.animate__tada {
+  animation-name: tada;
+}
+.animate-hover:hover {
+  animation: tada 1s forwards; /* Apply the tada animation on hover */
+}
+
+@keyframes tada {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%, 20% {
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}

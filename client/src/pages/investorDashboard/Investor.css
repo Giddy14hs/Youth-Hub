@@ -1,0 +1,46 @@
+.investor-dashboard .dashboard-menu {
+  background-color: #001529;
+  color: #fff;
+}
+
+.investor-dashboard .dashboard-header {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.investor-dashboard .dashboard-content {
+  padding: 20px;
+  background-color: #f0f2f5;
+}
+
+.stat-card h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1890ff;
+}
+
+.chart-row {
+  margin-top: 20px;
+}
+
+.chart-card {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.recommendations-card {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.invest-btn {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.action-row {
+  margin-top: 20px;
+}

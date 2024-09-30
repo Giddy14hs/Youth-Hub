@@ -1,0 +1,49 @@
+#footer{
+  background-color: black;
+  color: chocolate;
+  width: 100%;
+}
+#footer .container{
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social{
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+}
+.content h2{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+#footer .container .content{
+  padding: 10px 20px;
+}
+.btn{
+  position: block;
+  color: coral;
+}
+.social{
+  color: white;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  padding: 5px;
+}
+@keyframes jiggle {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+
+.fa-brands.transition {
+  animation: jiggle 500ms infinite;
+}
+.fa-brands{
+  width:50px
+}
+#footer{
+  width: 100%;
+}

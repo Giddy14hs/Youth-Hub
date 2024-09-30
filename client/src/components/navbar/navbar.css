@@ -1,0 +1,10 @@
+
+.navbar-brand{
+  font-size: 24px;
+}
+.nav-link{
+  text-transform: uppercase;
+}
+.nav-link:hover{
+  color:#23150c !important;
+}

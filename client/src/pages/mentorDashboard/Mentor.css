@@ -1,0 +1,188 @@
+/* Mentor Dashboard General Layout */
+.mentor-dashboard {
+  height: 100vh;
+}
+
+.site-layout-background {
+  background-color: #f0f2f5;
+}
+
+.dashboard-menu {
+  height: 100%;
+  background-color: #001529;
+}
+
+.dashboard-menu .ant-menu-item {
+  font-size: 16px;
+  color: #fff;
+}
+
+.dashboard-menu .ant-menu-item:hover {
+  background-color: #1890ff;
+}
+
+.content-layout {
+  background-color: #fff;
+}
+
+.dashboard-header {
+  background-color: #1890ff;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.dashboard-header h2 {
+  color: #fff;
+  font-size: 24px;
+}
+
+.dashboard-content {
+  padding: 24px;
+  background-color: #f0f2f5;
+  min-height: calc(100vh - 112px);
+}
+
+.stat-card {
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card h3 {
+  font-size: 22px;
+  margin-top: 10px;
+  color: #595959;
+}
+
+.stat-card h4 {
+  color: #40a9ff;
+}
+
+.view-details-btn {
+  margin-top: 20px;
+}
+
+.schedule-btn {
+  width: 100%;
+  background-color: #1890ff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.schedule-btn:hover {
+  background-color: #40a9ff;
+}
+
+/* Mentee Cards */
+.mentee-card {
+  background-color: #fff;
+  text-align: center;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mentee-card h3 {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.mentee-card h4 {
+  color: #595959;
+  margin-bottom: 10px;
+}
+
+.mentee-card .ant-progress {
+  margin: 15px 0;
+}
+
+/* Avatar */
+.mentee-card .ant-avatar {
+  margin-bottom: 10px;
+}
+
+/* Join Session Button */
+.join-session-btn {
+  background-color: #52c41a;
+  color: white;
+}
+
+.join-session-btn:hover {
+  background-color: #73d13d;
+}
+
+/* Schedule Session Section */
+.schedule-session-btn {
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: #1890ff;
+  color: #fff;
+}
+
+.schedule-session-btn:hover {
+  background-color: #40a9ff;
+}
+
+/* Schedule Card */
+.schedule-row {
+  margin-top: 40px;
+}
+
+.schedule-card {
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mentorship Tips Section */
+.mentorship-tips-row {
+  margin-top: 40px;
+}
+
+.tips-card {
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tips-card .ant-list-item {
+  padding: 10px 0;
+}
+
+.tips-card .ant-list-item .ant-typography {
+  font-size: 16px;
+  color: #595959;
+}
+
+/* Modal Styles */
+.ant-modal-header {
+  background-color: #1890ff;
+  color: white;
+}
+
+.ant-modal-title {
+  font-size: 18px;
+}
+
+.ant-modal-footer {
+  display: none;
+}
+
+.ant-modal-body {
+  text-align: center;
+}
+
+.ant-modal-body h4 {
+  color: #595959;
+}
+
+.ant-modal-body .ant-avatar {
+  margin-bottom: 20px;
+}

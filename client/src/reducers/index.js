@@ -1,7 +1,7 @@
 import {combineReducers} from 'redux'
 import authentication from "./authentication"
-import Contacts from "./contact"
+import contacts from "./contact.js"
 
 export default combineReducers({
-  contacts: Contacts,
+  contacts,
   authentication})
